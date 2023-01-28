@@ -1,4 +1,5 @@
 import React from "react";
+import { MenuItems } from "./MenuItems";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -7,11 +8,17 @@ const Navbar = () => {
       <h1 className="navbar-logo">Trips</h1>
 
       <ul className="nav-menu">
-        <li>
-          <a href="/">
-            <i className="fa-solid fa-house-user"></i>Home
-          </a>
-        </li>
+        {MenuItems.map((item, index) => {
+          return (
+            <li key={index}>
+              <a href="/">
+                {" "}
+                <i className={item.icon}></i>
+                {item.title}
+              </a>
+            </li>
+          );
+        })}
       </ul>
     </nav>
   );
