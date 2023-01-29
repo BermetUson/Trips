@@ -11,14 +11,14 @@ const Navbar = () => {
         {MenuItems.map((item, index) => {
           return (
             <li key={index}>
-              <a href="/">
-                {" "}
+              <a href="/" className={item.cName}>
                 <i className={item.icon}></i>
                 {item.title}
               </a>
             </li>
           );
         })}
+        <button>Sign Up</button>
       </ul>
     </nav>
   );
