@@ -2,6 +2,7 @@ import React from "react";
 
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
+import Dectination from "../components/Dectination";
 
 import img12 from "../assets/12.jpg";
 
@@ -18,6 +19,7 @@ const Home = () => {
         url="/"
         btnClass="show"
       />
+      <Dectination />
     </>
   );
 };
