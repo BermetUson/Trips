@@ -1,9 +1,15 @@
 import React from "react";
 
+import Hero from "../components/Hero";
+import Navbar from "../components/Navbar";
+
+import night from "../assets/night.jpg";
+
 const Service = () => {
   return (
     <>
-      <h1>This is service</h1>
+      <Navbar />
+      <Hero cName="hero-mid" heroImg={night} title="Service" btnClass="hide" />
     </>
   );
 };
