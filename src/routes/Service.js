@@ -2,7 +2,7 @@ import React from "react";
 
 import Hero from "../components/Hero";
 
-import night from "../assets/night.jpg";
+import night from "../assets/10.jpg";
 import Trips from "../components/Trips";
 
 const Service = () => {

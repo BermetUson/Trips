@@ -21,7 +21,7 @@ const Navbar = () => {
       <ul className={clicked ? "nav-menu active" : "nav-menu"}>
         {MenuItems.map((item, index) => {
           return (
-            <li key={index}>
+            <li key={index} onClick={handleClick}>
               <Link to={item.url} className={item.cName}>
                 <i className={item.icon}></i>
                 {item.title}
@@ -29,7 +29,7 @@ const Navbar = () => {
             </li>
           );
         })}
-        <button>Sign Up</button>
+        {/* <button>Sign Up</button> */}
       </ul>
     </nav>
   );
