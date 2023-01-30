@@ -5,7 +5,7 @@ import trip1 from "../assets/5.jpg";
 import trip2 from "../assets/8.jpg";
 import trip3 from "../assets/6.jpg";
 
-// import "./Trips.css";
+import "./Trips.css";
 
 const Trips = () => {
   return (
