@@ -6,6 +6,7 @@ import Dectination from "../components/Dectination";
 
 import img12 from "../assets/12.jpg";
 import Trips from "../components/Trips";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
       />
       <Dectination />
       <Trips />
+      <Footer />
     </>
   );
 };
