@@ -9,7 +9,6 @@ const About = () => {
   return (
     <>
       <Hero cName="hero-mid" heroImg={night} title="About" btnClass="hide" />
-
       <AboutUs />
     </>
   );
