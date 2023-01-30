@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar";
 import Dectination from "../components/Dectination";
 
 import img12 from "../assets/12.jpg";
+import Trips from "../components/Trips";
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
         btnClass="show"
       />
       <Dectination />
+      <Trips />
     </>
   );
 };
